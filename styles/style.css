@@ -279,6 +279,10 @@
   z-index: -2;
 }
 
+.kaufman__section-title{
+  margin: 0 0 20px 0;
+}
+
 .kaufman__triangle{
   background-image: url('../images/kaufman-triangle.svg');
   background-size: cover;
