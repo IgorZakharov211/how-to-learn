@@ -333,6 +333,10 @@
   text-decoration: none;
 }
 
+.footer__column-links:last-child{
+  margin-bottom: 16px;
+}
+
 .footer__column{
   display: flex;
   flex-direction: column;
@@ -343,16 +347,8 @@
   flex-basis: 711px;
 }
 
-.footer__column_content_info{
-  margin:0 0 16px 0;
-}
-
-.footer__column_content_social{
-  margin:0 0 16px 0;
-}
-
 .footer__social-icon{
-  margin:0 10px 0 0;
+  padding:0 10px 0 0;
 }
 
 
