@@ -20,19 +20,20 @@
   display: flex;
   position: relative;
   background-color: #f2f2f2;
+  z-index: -1;
 }
 
 .logo{
-  background-image: url('../images/logo_place_header.svg');
   width:183px;
   height: 32px;
-  z-index: 2;
 }
 
 .logo_place_header{
+  background-image: url('../images/logo_place_header.svg');
   position: absolute;
   top:30px;
   left: 64px;
+  z-index: 3;
 }
 
 .logo_place_footer{
@@ -47,6 +48,7 @@
   font-weight: bold;
   padding-left: 64px;
   align-self: center;
+  z-index: 2;
 }
 
 .header__subtitle{
@@ -57,11 +59,13 @@
   font-size: 18px;
   font-weight: normal;
   line-height: 25px;
+  z-index: 2;
 }
 
 .header__link{
   color:#2f80ed;
   text-decoration: none;
+  z-index: 2;
 }
 
 .header__main-illustration{
@@ -80,14 +84,13 @@
   height: 568px;
   right: 0;
   top:64px;
-  z-index:0;
 }
 
 
 /* Секция description */
 
 .description{
-  padding: 100px 0 70px 0;
+  padding: 100px 0 100px 0;
   display: flex;
   justify-content: center;
 }
@@ -116,8 +119,11 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  padding-bottom: 30px;
-  margin:0;
+  margin: 0 0 30px 0;
+}
+
+.two-columns__paragraph:last-child{
+  margin: 0;
 }
 
 .two-columns__span-accent{
@@ -140,8 +146,8 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  margin: 0;
-  padding-bottom: 20px;
+  padding: 0 0 20px 0;
+  margin:0;
 }
 
 .section-title_theme_dark{
@@ -180,8 +186,7 @@
 .table__cell_theme_dark {
   width: 200px;
   color: white;
-  margin-right: 0;
-  margin-top: 80px;
+  margin: 80px 0 0 0;
 }
 
 .table__heading{
@@ -192,11 +197,10 @@
 }
 
 .table__text{
-  padding-top: 20px;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
-  margin: 0;
+  margin: 20px 0 0 0;
 }
 
 
@@ -217,8 +221,7 @@
   line-height: 1.15;
   font-size: 120px;
   font-weight: bold;
-  margin: 0;
-  padding-bottom: 70px;
+  margin: 0 0 70px 0;
   text-align: center;
   z-index: 1;
 }
@@ -266,6 +269,8 @@
 }
 
 .kaufman__triangle{
+  background-image: url('../images/kaufman-triangle.svg');
+  background-size: cover;
   width: 877px;
   height: 877px;
   position: absolute;
@@ -283,7 +288,7 @@
   padding: 60px 0 40px 0;
   background-color: #1f1f1f;
   min-height: 350px;
-  flex-basis: 711px;
+  box-sizing: border-box;
 }
 
 .footer__columns{
@@ -323,8 +328,8 @@
 }
 
 .footer__column_content_copyright{
-  width: 50%;
   justify-content: space-between;
+  flex-basis: 711px;
 }
 
 .footer__column_content_info{
@@ -336,7 +341,7 @@
 }
 
 .footer__social-icon{
-  padding-right:10px;
+  margin:0 10px 0 0;
 }
 
 
