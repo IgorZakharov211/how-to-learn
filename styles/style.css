@@ -10,6 +10,17 @@
 }
 
 
+/* миксы для блока content */
+
+.content__description{
+  margin: 100px 0 100px 0;
+}
+
+.content__digits{
+  margin: 0 0 100px 0;
+}
+
+
 /* Шапка сайта */
 
 .header {
@@ -90,7 +101,6 @@
 /* Секция description */
 
 .description{
-  padding: 100px 0 100px 0;
   display: flex;
   justify-content: center;
 }
@@ -133,10 +143,13 @@
 
 /* Секция digits */
 .digits{
-  padding: 0 0 100px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.digits__section-title{
+  margin: 0 0 20px 0;
 }
  
 /* Section и его темная тема */
@@ -146,8 +159,6 @@
   line-height: 69px;
   font-size: 60px;
   font-weight: bold;
-  padding: 0 0 20px 0;
-  margin:0;
 }
 
 .section-title_theme_dark{
