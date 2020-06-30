@@ -1,3 +1,5 @@
+@import url('./__section-title/techniques__section-title.css');
+
 .techniques{
   width:80%;
   display: flex;
@@ -5,6 +7,3 @@
   align-items: center;
 }
 
-.techniques__section-title{
-  margin: 0 0 20px 0;
-}

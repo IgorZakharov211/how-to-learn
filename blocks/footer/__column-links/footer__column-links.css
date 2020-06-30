@@ -9,3 +9,8 @@
 .footer__column-links:last-child{
   margin-bottom: 16px;
 }
+
+.footer__column-links:hover{
+  opacity:.5;
+  transition: opacity .7s ease-out;
+}

@@ -1,11 +1,10 @@
-.content__description{
-  margin: 100px 0 100px 0;
-}
+@import url('./__techniques/content__techniques.css');
+@import url('./__digits/content__digits.css');
+@import url('./__description/content__description.css');
+@import url('./__video/content__video.css');
+@import url('./__resources/content__resources.css');
 
-.content__digits{
-  margin: 0 0 100px 0;
-}
 
-.content__techniques{
-  margin: 0 auto 100px auto;
-}
+
+
+
