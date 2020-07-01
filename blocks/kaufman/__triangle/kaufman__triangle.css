@@ -3,4 +3,5 @@
   background-size: cover;
   width: 877px;
   height: 877px;
+  z-index: 1;
 }
